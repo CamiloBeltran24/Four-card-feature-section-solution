@@ -1,0 +1,22 @@
+.main {
+  @include card-dimensions;
+  &__card {
+    @include card;
+    background-color: white;
+  }
+  &__middle-box {
+    width: 100%;
+  }
+  .supervisor {
+    border-color: $box-supervisor;
+  }
+  .karma {
+    border-color: $box-karma;
+  }
+  .team {
+    border-color: $box-team-builder-;
+  }
+  .calculator {
+    border-color: $box-calculator;
+  }
+}

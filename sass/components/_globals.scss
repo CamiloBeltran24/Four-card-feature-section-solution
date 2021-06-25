@@ -1,0 +1,29 @@
+$box-team-builder-: hsl(0, 78%, 62%);
+$box-supervisor: hsl(180, 62%, 55%);
+$box-karma: hsl(34, 97%, 64%);
+$box-calculator: hsl(212, 86%, 64%);
+$text: hsl(234, 12%, 34%);
+$principal: hsl(229, 6%, 66%);
+$background: hsl(0, 0%, 98%);
+$Font-size: 1.5rem;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $background;
+  padding-top: 30px;
+}
